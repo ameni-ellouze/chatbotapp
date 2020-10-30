@@ -1,5 +1,9 @@
 from chatterbot import ChatBot
 
+#This line of code has created a new chat bot named CoronaBot
+#we will be using the SQLStorageAdapter which allows the chat bot to connect to SQL databases.
+#The TimeLogicAdapter returns the current time when the input statement asks for it. 
+#The MathematicalEvaluation adapter solves math problems that use basic operations.
 chatbot = ChatBot(
     'CoronaBot',
     storage_adapter='chatterbot.storage.SQLStorageAdapter',
